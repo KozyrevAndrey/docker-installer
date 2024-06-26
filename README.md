@@ -2,7 +2,7 @@
 
 This repository is designed to facilitate the installation of docker.
 
-Currently only install on Fedora
+Currently only install on Fedora.
 
 ## Usage
 
