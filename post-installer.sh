@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Create the docker group.
+# Create the docker group
 sudo groupadd docker
 
 # Add your user to the docker group
 sudo usermod -aG docker $USER
-newgrp docker
 
-# Verify 
+# Verify
 docker run hello-world
 
 # Start on boot with systemmd
